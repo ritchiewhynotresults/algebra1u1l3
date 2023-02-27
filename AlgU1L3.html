@@ -1,0 +1,1106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ALGEBRA U1 Lesson 3</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&family=Montserrat:wght@400;500;600;700;900&display=swap"
+        rel="stylesheet">
+    <link 
+        href="https://fonts.googleapis.com/icon?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Round" rel="stylesheet">
+    <style type="text/css">
+        :root{
+            --font-one: 'Montserrat', sans-serif;
+            --font-two: 'Arvo', serif;
+        }
+        body {
+            font-family: var(--font-one);
+            font-size: 16px;
+            font-weight: 400;
+            background: #7f8589;
+            background-size: cover;
+        }   
+       /* h1, h2, h3, h4, h5, h6{
+            font-family: var(--font-two);
+        }
+
+        h1,
+        h2 {
+            font-weight: 700;
+        } */
+
+        /* top_content */
+        #setion1{
+          background-color: #47494b;
+        }
+        #top_content_one {
+            /* background: url('./ALGEBRAU1L3Header.png') no-repeat; */
+            background: url('https://lh3.googleusercontent.com/u/0/drive-viewer/AAOQEOSHE3E1G1-qkiQ3p_uXbbjbXEiq65YPCHayiuvwt2CclwS__L_VnkOzUcItumMjs2FmieFlaUw0dhokeghHG-bUreiW_A=w909-h976') no-repeat;
+            background-size: cover;
+            background-position: left;
+            padding:90px;
+            height: 600px;
+            box-shadow: -1px -8px 13px #8a4c5775;
+            -webkit-box-shadow: -1px -8px 13px #8a4c5775;
+            -moz-box-shadow: -1px -8px 13px #8a4c5775;
+            -o-box-shadow: -1px -8px 13px #8a4c5775;
+        }
+        #top2_content_one {
+            background-color: #fff;
+            padding:50px;
+        }
+        #top3_content_one {
+            background-color: #d9dbdc;
+            padding:50px;
+        }
+        #top4_content_one {
+            background-color: #48494b;
+            padding:50px;
+        }
+        #top5_content_one {
+            background-color: #fff;
+            padding:50px;
+        }
+        .sect1title{
+          font-size: 100px;
+          font-family: var(--font-two);
+          font-weight: bold;
+          color: #fff;
+        }
+        .sect1subtitle{
+          font-size: 45px;
+          /* font-family: var(--font-two); */
+          font-weight: bold;
+          color: #fff;
+        }
+        .sect1subtitlecont{
+          font-size: 40px;
+          color: #fff;
+        }
+        .sect2-title{
+          font-size:30px;
+          text-align: center;
+          text-transform: uppercase;
+          font-weight: bold;
+        }
+        .sec2-text-cont{
+          font-size: 20px;
+        }
+        .sec2-bg1-table-title{
+          background-color: #9ea2a3 !important;
+        }
+        .sec2-bg2-table-title{
+          background-color: #b9bcbd !important;
+        }
+        .sec2-bg3-table-title{
+          background-color: #d5d7d7 !important;
+        }
+        .sec2-title-text{
+          font-size: 20px;
+          color: #000;
+          font-weight: bold;
+          text-align: center;
+          text-transform: uppercase;
+           padding: 20px;
+        }
+        .sec2-bg-text-cont{
+          background: #ced0d0 !important;
+        }
+        .sec4-text-title{
+          font-size: 30px;
+          color: #fff;
+          text-align: center;
+          text-transform: uppercase;
+        }
+        .sec5-bg-text{
+          background-color: #a5a5a5 !important;
+        }
+        .sec5-title-text{
+          font-size: 20px;
+          font-weight: bold;
+          text-align: center;
+        }
+        .sec5-title-text-con{
+           font-size: 20px;
+        }
+        .sec8-bg-text-ans{
+          background: #e5e6e7 !important;
+        }
+        input.is-invalid~.form-check-label{
+            text-decoration: line-through;
+        }
+        .listnone{
+          list-style: none;
+        }
+        .bg-black{
+            background-color: black;
+        }
+      button[data-qs_count]{
+        border-radius: 0px 50rem 50rem 0px !important;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+    button[data-qs_count].glow-on-hover-success{
+        background: #6bc855!important;
+    }
+    button[data-qs_count].glow-on-hover-wrong{
+        background: var(--bs-danger)!important;
+    }
+    span.error_mes{
+        top: -16px;
+        font-size: 11px;
+        left: 19px;
+        z-index: 2;
+    }
+    </style>
+</head>
+
+<body>
+<div class="lesson_3">
+    <!-- section 1 -->
+    <section id="setion1">
+        <div class="container">
+            <div class="col-lg-10 col-12 offset-lg-1">
+                <div id="top_content_one">
+                    <div class="row">
+                        <div class="col-lg-12" style="text-align: right;">
+                            <h1 class="sect1title" style="padding-bottom: 0px;">ALGEBRA</h1>
+                             <label class="sect1subtitle" style="padding-top: 0px;">Exponents and Roots</label>
+                             <label class="sect1subtitlecont">Rational and Irrational<br> Numbers</label>
+                        </div>
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- section 2 -->
+    <section id="setion2">
+        <div class="container">
+            <div class="col-lg-10 col-12 offset-lg-1">
+                <div id="top2_content_one">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <h1 class="sect2-title">Rational and Irrational Numbers</h1>
+
+                            <p class="sec2-text-cont mt-4">Can a number be both rational and irrational? No, but real numbers fall into one or the other of these two categories. Indeed, the set of real numbers contains both rational and irrational numbers</p>
+                            <p class="sec2-text-cont mt-4">The set of real numbers includes many subsets of numbers. This is an integral part to the study of algebra and will help you understand many other concepts in this course.</p>
+                        </div>
+                        <div class="col-lg-12" style="text-align:center">
+                           <img src="https://lh3.googleusercontent.com/u/0/drive-viewer/AAOQEOS0y2altCm9now1oA8vRMxbzxut__kzyqSmYFXPCzO3YZDExSOvLlMgnFYdRbeJ1eBSAEfqAxEuRs-SQfjT0dQlGgwqtA=w1920-h976" style="width:70%;margin: auto;">
+                           <!-- <img src="./ALGEBRAU1L3Image1.png" style="width:70%;margin: auto;"> -->
+                        </div>
+
+                        <div class="col-lg-12 mt-5">
+                          <div class="table-responsive"> 
+                            <table class="table" style="border:2px solid #fff">
+                                <thead>
+                                  <tr>
+                                    <td class="sec2-bg1-table-title" width="33%">
+                                     <p class="sec2-title-text"> What you should<br> know</p>
+                                    </td>
+                                    <td class="sec2-bg2-table-title" width="33%">
+                                     <p class="sec2-title-text">Lesson<br> Expectations</p>
+                                    </td>
+                                    <td class="sec2-bg3-table-title" width="33%">
+                                     <p class="sec2-title-text"> Lesson<br> Keywords</p>
+                                    </td>
+                                  </tr>
+                                </thead>
+                                <tbody>
+                                  <tr>
+                                    <td class="sec2-bg-text-cont p-3">
+                                      <p class="sec2-text-cont">
+                                        <b>Before you begin, you <br> should: </b>
+                                      </p>
+                                      <ul>
+                                        <li class="sec2-text-cont">Know the set of whole numbers</li>
+                                        <li class="sec2-text-cont">Know the integers, fractions, and decimals</li>
+                                      </ul>
+                                    </td>
+                                    <td class="sec2-bg-text-cont p-3">
+                                      <p class="sec2-text-cont">
+                                        <b>By the end of this lesson, <br>you should be able to:</b>
+                                      </p>
+                                      <ul>
+                                        <li class="sec2-text-cont">Understand the concepts of base and exponent</li>
+                                        <li class="sec2-text-cont">Evaluate square roots</li>
+                                        <li class="sec2-text-cont">Compare rational and irrational numbers</li>
+                                      </ul>
+                                    </td>
+                                    <td class="sec2-bg-text-cont p-3 text-center">
+                                      <p class="sec2-text-cont">Base number </p>
+                                      <p class="sec2-text-cont">Exponent</p>
+                                      <p class="sec2-text-cont">Irrational number</p>
+                                      <p class="sec2-text-cont">Radical sign</p>
+                                      <p class="sec2-text-cont">Rational number</p>
+                                      <p class="sec2-text-cont">Square root</p>
+                                      
+                                    </td>
+                                  </tr>
+                                </tbody>
+                            </table>
+                          </div>
+                        </div>
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+     <!-- section 3 -->
+    <section id="setion3">
+        <div class="container">
+            <div class="col-lg-10 col-12 offset-lg-1">
+                <div id="top3_content_one">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <h1 class="sect2-title">Bases and Exponents</h1>
+                           <p class="sec2-text-cont mt-4 text-center">In the expression 34 the 3 is referred to as the base and the little 4 is the exponent. 34 is read as <b>“three to the fourth power.”</b> It means to multiply 3 (the base) by itself 4 times. The base is the number that is multiplied. The exponent tells how many times to multiply the base number by itself.</p>
+                        </div>
+
+                        <div class="col-ld-12 text-center">
+                          <!-- <img src="./ALGEBRAU1L3Image2.png" width="70%"> -->
+                          <img src="https://lh3.googleusercontent.com/u/0/drive-viewer/AAOQEOSmkUy4wanMisGJGHSz7m-HT1muX9gYIgz08eNXO-a-_9O-hC9qLBjfIaiCExAKEYkXy6yJXoyhUFz-j95E2Z4Mukcw=w909-h976" width="70%">
+                        </div>
+                        <div class="col-ld-12 text-center">
+                           <p class="sec2-text-cont mt-4 text-center">
+                              Now let's look at a two video examples of evaluating exponents:
+                            </p>
+                        </div>
+
+                        <div class="col-ld-12">
+                          <div class="ratio ratio-16x9" style="border:15px solid #8f542c">
+                              <video class="video-fluid" loop controls>
+                                  <source src="Https://m.fyioc.com/Spanish1/Lesson28/L28V1-REV5.mp4" type="video/mp4" />
+                              </video>
+                              <div class="play_button">
+                                  <div id="play_vid">
+                                      <span class="material-icons-outlined">play_arrow</span>
+                                  </div>
+                              </div>
+                          </div>
+                        </div>
+
+                        <div class="col-ld-12 mt-5">
+                          <div class="ratio ratio-16x9" style="border:15px solid #8f542c">
+                              <video class="video-fluid" loop controls>
+                                  <source src="Https://m.fyioc.com/Spanish1/Lesson28/L28V1-REV5.mp4" type="video/mp4" />
+                              </video>
+                              <div class="play_button">
+                                  <div id="play_vid">
+                                      <span class="material-icons-outlined">play_arrow</span>
+                                  </div>
+                              </div>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- section 4 -->
+     <section id="setion4">
+        <div class="container">
+            <div class="col-lg-10 col-12 offset-lg-1">
+                <div id="top4_content_one">
+                    <div class="row">
+                      <div class="col-lg-12">
+                         <h1 class="sec4-text-title">PRACTICE</h1>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- section 5 -->
+     <section id="setion5">
+        <div class="container">
+            <div class="col-lg-10 col-12 offset-lg-1">
+                <div id="top5_content_one">
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <h1 class="sect2-title">Bases Loaded</h1>
+                      </div>
+                      <div class="col-lg-12">
+                         <p class="sec2-text-cont mt-4 text-center">Complete the table below.  Follow the example.</p>
+                      </div>
+                      <div class="col-lg-12">
+                         <div class="table-responsive">
+                          <table class="table table-bordered">
+                            <thead>
+                              <tr>
+                                <td class="sec5-bg-text">
+                                  <label class="sec5-title-text">Base</label>
+                                </td>
+                                <td class="sec5-bg-text">
+                                  <label class="sec5-title-text">Exponent</label>
+                                </td>
+                                <td class="sec5-bg-text">
+                                  <label class="sec5-title-text">Exponent form</label>
+                                </td>
+                                <td class="sec5-bg-text">
+                                  <label class="sec5-title-text">Factor form</label>
+                                </td>
+                                <td class="sec5-bg-text">
+                                  <label class="sec5-title-text">Product form</label>
+                                </td>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <td>
+                                   <label class="sec5-title-text-con">3</label>
+                                </td>
+                                <td>
+                                   <label class="sec5-title-text-con">2</label>
+                                </td>
+                                <td>
+                                   <ul class="listnone">
+                                    <li>
+                                       <div class="form-check">
+                                          <input class="form-check-input sect5-text-sub" type="checkbox" data-value="no" id="practice1" data-qs_count="1">
+                                          <label class="form-check-label sect5-text-sub" for="practice1">a. 2 <sup>3</sup></label>
+                                      </div>
+                                    </li>
+                                    <li>
+                                      <div class="form-check">
+                                          <input class="form-check-input sect5-text-sub" type="checkbox" data-value="yes" id="practice1" data-qs_count="1">
+                                          <label class="form-check-label sect5-text-sub" for="practice1">b. 3 <sup>2</sup></label>
+                                      </div>
+                                    </li>
+                                   </ul>
+                                </td>
+                                <td>
+                                   <ul class="listnone">
+                                    <li> <div class="form-check">
+                                          <input class="form-check-input sect5-text-sub" type="checkbox" data-value="yes" id="practice2" data-qs_count="2">
+                                          <label class="form-check-label sect5-text-sub" for="practice2">a. 3 * 3</label>
+                                      </div></li>
+                                    <li></li>
+                                    <li><div class="form-check">
+                                          <input class="form-check-input sect5-text-sub" type="checkbox" data-value="no" id="practice2" data-qs_count="2">
+                                          <label class="form-check-label sect5-text-sub" for="practice2">b. 2 * 2 * 2</label>
+                                      </div></li>
+                                   </ul>
+                                </td>
+                                <td>
+                                   <ul class="listnone">
+                                    <li><div class="form-check">
+                                          <input class="form-check-input sect5-text-sub" type="checkbox" data-value="yes" id="practice3" data-qs_count="3">
+                                          <label class="form-check-label sect5-text-sub" for="practice3">a. 9</label>
+                                      </div></li>
+                                    <li><div class="form-check">
+                                          <input class="form-check-input sect5-text-sub" type="checkbox" data-value="no" id="practice3" data-qs_count="3">
+                                          <label class="form-check-label sect5-text-sub" for="practice3">b. 8</label>
+                                      </div></li>
+                                   </ul>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td>
+                                   <label class="sec5-title-text-con">-4</label>
+                                </td>
+                                <td>
+                                   <label class="sec5-title-text-con">5</label>
+                                </td>
+                                <td>
+                                  <ul class="listnone">
+                                    <li><div class="form-check">
+                                          <input class="form-check-input sect5-text-sub" type="checkbox" data-value="yes" id="practice4" data-qs_count="4">
+                                          <label class="form-check-label sect5-text-sub" for="practice4">a. (-4) <sup>5</sup></label>
+                                      </div></li>
+                                    <li><div class="form-check">
+                                          <input class="form-check-input sect5-text-sub" type="checkbox" data-value="no" id="practice4" data-qs_count="4">
+                                          <label class="form-check-label sect5-text-sub" for="practice4">b. (5) <sup>-4</sup></sup></label>
+                                      </div></li>
+                                   </ul>
+                                </td>
+                                <td>
+                                  <ul class="listnone">
+                                    <li><div class="form-check">
+                                          <input class="form-check-input sect5-text-sub" type="checkbox" data-value="yes" id="practice5" data-qs_count="5">
+                                          <label class="form-check-label sect5-text-sub" for="practice5">a. (-4) (-4) (-4) (-4) (-4)</sup></label>
+                                      </div></li>
+                                    <li><div class="form-check">
+                                          <input class="form-check-input sect5-text-sub" type="checkbox" data-value="no" id="practice5" data-qs_count="5">
+                                          <label class="form-check-label sect5-text-sub" for="practice5">b. 5 * 5 * 5 * 5</label>
+                                      </div></li>
+                                   </ul>
+                                </td>
+                                <td>
+                                  <ul class="listnone">
+                                    <li><div class="form-check">
+                                          <input class="form-check-input sect5-text-sub" type="checkbox" data-value="yes" id="practice6" data-qs_count="6">
+                                          <label class="form-check-label sect5-text-sub" for="practice6">a.  -1024 </label>
+                                      </div></li>
+                                    <li><div class="form-check">
+                                          <input class="form-check-input sect5-text-sub" type="checkbox" data-value="no" id="practice6" data-qs_count="6">
+                                          <label class="form-check-label sect5-text-sub" for="practice6">b. 0.00016</label>
+                                      </div></li>
+                                   </ul>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td><label class="sec5-title-text-con">2 / 3</label></td>
+                                <td><label class="sec5-title-text-con">3</label></td>
+                                <td>
+                                  <ul class="listnone">
+                                    <li><div class="form-check">
+                                          <input class="form-check-input sect5-text-sub" type="checkbox" data-value="no" id="practice7" data-qs_count="7">
+                                          <label class="form-check-label sect5-text-sub" for="practice7">a. 3 <sup>2 / 3 </sup></label>
+                                      </div></li>
+                                    <li><div class="form-check">
+                                          <input class="form-check-input sect5-text-sub" type="checkbox" data-value="yes" id="practice7" data-qs_count="7">
+                                          <label class="form-check-label sect5-text-sub" for="practice7">b. 2 / 3  <sup>3</sup></label>
+                                      </div></li>
+                                   </ul>
+                                </td>
+                                <td>
+                                  <ul class="listnone" >
+                                    <li><div class="form-check">
+                                          <input class="form-check-input sect5-text-sub" type="checkbox" data-value="no" id="practice8" data-qs_count="8">
+                                          <label class="form-check-label sect5-text-sub" for="practice8">a. 3 * 2 / 3</label>
+                                      </div></li>
+                                    <li><div class="form-check">
+                                          <input class="form-check-input sect5-text-sub" type="checkbox" data-value="yes" id="practice8" data-qs_count="8">
+                                          <label class="form-check-label sect5-text-sub" for="practice8">b. 2 / 3 * 2 / 3 * 2 / 3</label>
+                                      </div></li>
+                                   </ul>
+                                </td>
+                                <td>
+                                  <ul class="listnone">
+                                    <li><div class="form-check">
+                                          <input class="form-check-input sect5-text-sub" type="checkbox" data-value="yes" id="practice9" data-qs_count="9">
+                                          <label class="form-check-label sect5-text-sub" for="practice9">a. 8 / 27</label>
+                                      </div></li>
+                                    <li><div class="form-check">
+                                          <input class="form-check-input sect5-text-sub" type="checkbox" data-value="no" id="practice9" data-qs_count="9">
+                                          <label class="form-check-label sect5-text-sub" for="practice9">b. 2.08008</label>
+                                      </div></li>
+                                   </ul>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td><label class="sec5-title-text-con">X</label></td>
+                                <td><label class="sec5-title-text-con">4</label></td>
+                                <td>
+                                  <ul class="listnone">
+                                    <li><div class="form-check">
+                                          <input class="form-check-input sect5-text-sub" type="checkbox" data-value="yes" id="practice10" data-qs_count="10">
+                                          <label class="form-check-label sect5-text-sub" for="practice10">a. x <sup>4</sup></label>
+                                      </div></li>
+                                    <li><div class="form-check">
+                                          <input class="form-check-input sect5-text-sub" type="checkbox" data-value="no" id="practice10" data-qs_count="10">
+                                          <label class="form-check-label sect5-text-sub" for="practice10">b. 4  <sup>x</sup></label>
+                                      </div></li>
+                                   </ul>
+                                </td>
+                                <td>
+                                  <ul class="listnone">
+                                    <li><div class="form-check">
+                                          <input class="form-check-input sect5-text-sub" type="checkbox" data-value="no" id="practice11" data-qs_count="11">
+                                          <label class="form-check-label sect5-text-sub" for="practice11">a. 4 * x</label>
+                                      </div></li>
+                                    <li><div class="form-check">
+                                          <input class="form-check-input sect5-text-sub" type="checkbox" data-value="yes" id="practice11" data-qs_count="11">
+                                          <label class="form-check-label sect5-text-sub" for="practice11">b. x * x * x * x </label>
+                                      </div></li>
+                                    <li></li>
+                                   </ul>
+                                </td>
+                                <td>
+                                  <ul class="listnone">
+                                    <li><div class="form-check">
+                                          <input class="form-check-input sect5-text-sub" type="checkbox" data-value="yes" id="practice12" data-qs_count="12">
+                                          <label class="form-check-label sect5-text-sub" for="practice12">a. x <sup>4</sup></label>
+                                      </div></li>
+                                    <li><div class="form-check">
+                                          <input class="form-check-input sect5-text-sub" type="checkbox" data-value="no" id="practice12" data-qs_count="12">
+                                          <label class="form-check-label sect5-text-sub" for="practice12">b. 256x </label>
+                                      </div></li>
+                                    <li></li>
+                                   </ul>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td><label class="sec5-title-text-con">0.2</label></td>
+                                <td><label class="sec5-title-text-con">6</label></td>
+                                <td>
+                                  <ul class="listnone">
+                                    <li><div class="form-check">
+                                          <input class="form-check-input sect5-text-sub" type="checkbox" data-value="no" id="practice13" data-qs_count="13">
+                                          <label class="form-check-label sect5-text-sub" for="practice13">a. 6 <sup>0.2</sup></label>
+                                      </div></li>
+                                    <li><div class="form-check">
+                                          <input class="form-check-input sect5-text-sub" type="checkbox" data-value="yes" id="practice13" data-qs_count="13">
+                                          <label class="form-check-label sect5-text-sub" for="practice13">b. 0.2  <sup>6</sup></label>
+                                      </div></li>
+                                   </ul>
+                                </td>
+                                <td>
+                                  <ul class="listnone">
+                                    <li><div class="form-check">
+                                          <input class="form-check-input sect5-text-sub" type="checkbox" data-value="no" id="practice14" data-qs_count="14">
+                                          <label class="form-check-label sect5-text-sub" for="practice14">a. 6 * 0.2</label>
+                                      </div></li>
+                                    <li><div class="form-check">
+                                          <input class="form-check-input sect5-text-sub" type="checkbox" data-value="yes" id="practice14" data-qs_count="14">
+                                          <label class="form-check-label sect5-text-sub" for="practice14">b. 0.2 * 0.2 * 0.2 * 0.2 * 0.2 * 0.2</label>
+                                      </div></li>
+                                   </ul>
+                                </td>
+                                <td>
+                                  <ul class="listnone">
+                                    <li><div class="form-check">
+                                          <input class="form-check-input sect5-text-sub" type="checkbox" data-value="yes" id="practice15" data-qs_count="15">
+                                          <label class="form-check-label sect5-text-sub" for="practice15">a. 0.000064</label>
+                                      </div></li>
+                                    <li><div class="form-check">
+                                          <input class="form-check-input sect5-text-sub" type="checkbox" data-value="no" id="practice15" data-qs_count="15">
+                                          <label class="form-check-label sect5-text-sub" for="practice15">b. 1.430969</label>
+                                      </div></li>
+                                   </ul>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                         </div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- section 6 -->
+    <section id="setion6">
+        <div class="container">
+            <div class="col-lg-10 col-12 offset-lg-1">
+                <div id="top3_content_one">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <h1 class="sect2-title">Square Roots</h1>
+                           <p class="sec2-text-cont mt-4 text-center">A square root is one of two equal factors of a given number. The radical sign is used to represent the square root.</p>
+                        </div>
+                        <div class="col-lg-12 text-center mt-3">
+                          <!-- <img src="./ALGEBRAU1L3Image3.png" width="50%"> -->
+                          <img src="https://lh3.googleusercontent.com/u/0/drive-viewer/AAOQEOTEwvyzRfigcn-paekpgaAS2WiDLIdOfbWf45qywiJcOKskzOpt4o3h3YVOnQqpTq-eGKmd4VIDbFS0qvXyF3rxf8KqZQ=w1920-h976" width="50%">
+                        </div>
+                        <div class="col-lg-12 text-center mt-3">
+                          <p class="sec2-text-cont mt-4 text-center">Let's now take a look at a video showing the though-process behind finding a square root.</p>
+                        </div>
+                        <div class="col-lg-12 text-center mt-3">
+                          <div class="ratio ratio-16x9" style="border:15px solid #8f542c">
+                              <video class="video-fluid" loop controls>
+                                  <source src="Https://m.fyioc.com/Spanish1/Lesson28/L28V1-REV5.mp4" type="video/mp4" />
+                              </video>
+                              <div class="play_button">
+                                  <div id="play_vid">
+                                      <span class="material-icons-outlined">play_arrow</span>
+                                  </div>
+                              </div>
+                          </div>
+                        </div>
+                        <div class="col-lg-12 text-center mt-3">
+                          <p class="sec2-text-cont mt-4 text-center">The square root of a number can either be rational or irrational. A number is irrational if its decimal is either NOT repeating or NOT terminating. Otherwise, it is a rational number.</p>
+                        </div>
+                        <div class="col-lg-12 text-center mt-3">
+                          <!-- <img src="./ALGEBRAU1L3Image4.png" width="50%"> -->
+                          <img src="https://lh3.googleusercontent.com/u/0/drive-viewer/AAOQEOQkl7DIC5muQNS6H-BjcVFx2D8NJI4bMT2kLDdscOa00KcMm7VGxnnH2fY3MmksLCGXFSbpTtf4KfXExdeVcfKxpwKY=w909-h976" width="50%">
+                        </div>
+                        <div class="col-lg-12 text-center mt-3">
+                          <p class="sec2-text-cont mt-4 text-center">To compare rational numbers and irrational numbers, use a calculator to determine which is > OR < OR =.</p>
+                        </div>
+                         <div class="col-lg-12 text-center mt-3">
+                          <!-- <img src="./ALGEBRAU1L3Image5.png" width="50%"> -->
+                          <img src="https://lh3.googleusercontent.com/u/0/drive-viewer/AAOQEORxO5HOdK_6LGbJvtqycaap8MAfjASi8o6s8W7VzXBHrYUOKZNqUsWm1fiGJEDzwc44RFFdGAzBqDuGlxG-gqpFNNpp=w1920-h976" width="50%">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+     <!-- section 7 -->
+     <section id="setion7">
+        <div class="container">
+            <div class="col-lg-10 col-12 offset-lg-1">
+                <div id="top4_content_one">
+                    <div class="row">
+                      <div class="col-lg-12">
+                         <h1 class="sec4-text-title">PRACTICE</h1>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+     <!-- section 8 -->
+     <section id="setion8">
+        <div class="container">
+            <div class="col-lg-10 col-12 offset-lg-1">
+                <div id="top5_content_one">
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <h1 class="sect2-title">Rational Senses</h1>
+                      </div>
+                      <div class="col-lg-12">
+                         <p class="sec2-text-cont mt-4">I. Evaluate.  Round to the nearest hundredth only if the answer is an irrational number.</p>
+                      </div>
+                      <div class="col-lg-8 offset-lg-2">
+                        <div class="table-responsive">
+                          <table class="table table-bordered" >
+                            <thead>
+                              <tr>
+                                <td width="50%">
+                                  <label class="sec5-title-text-con">a. &#8730 121</label>
+                                </td>
+                                <td width="50%" class="sec8-bg-text-ans" style="border:1px solid #fff">
+                                 <label class="sec5-title-text-con">-8.83</label>
+                                 <div class="input-group">
+                                    <input type="text" class="form-control form-control-sm" id="quiz-answer1" data-ans="C">
+                                    <button class="btn text-white bg-black ps-2 pe-2" data-error_counter="3" data-qs_count="1" id="quiz-answer1btn" onclick="checkInputs(this)" type="button">Check</button>
+                                    <span id="quiz-answer-text1" class="hidden position-absolute error_mes bg-danger ps-1 pe-1 text-white"></span>
+                                </div>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td width="50%">
+                                  <label class="sec5-title-text-con">b. - &#8730 36</label>
+                                </td>
+                                <td width="50%" class="sec8-bg-text-ans" style="border:1px solid #fff">
+                                 <label class="sec5-title-text-con">2 / 3</label>
+                                 <div class="input-group">
+                                    <input type="text" class="form-control form-control-sm" id="quiz-answer2" data-ans="D">
+                                    <button class="btn text-white bg-black ps-2 pe-2" data-error_counter="3" data-qs_count="2" id="quiz-answer2btn" onclick="checkInputs(this)" type="button">Check</button>
+                                    <span id="quiz-answer-text2" class="hidden position-absolute error_mes bg-danger ps-1 pe-1 text-white"></span>
+                                </div>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td width="50%">
+                                  <label class="sec5-title-text-con">c. - &#8730 78</label>
+                                </td>
+                                <td width="50%" class="sec8-bg-text-ans" style="border:1px solid #fff">
+                                 <label class="sec5-title-text-con">11</label>
+                                  <div class="input-group">
+                                    <input type="text" class="form-control form-control-sm" id="quiz-answer3" data-ans="A">
+                                    <button class="btn text-white bg-black ps-2 pe-2" data-error_counter="3" data-qs_count="3" id="quiz-answer3btn" onclick="checkInputs(this)" type="button">Check</button>
+                                    <span id="quiz-answer-text3" class="hidden position-absolute error_mes bg-danger ps-1 pe-1 text-white"></span>
+                                </div>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td width="50%">
+                                  <label class="sec5-title-text-con">d. &#8730 36 / 81</label>
+                                </td>
+                                <td width="50%" class="sec8-bg-text-ans" style="border:1px solid #fff">
+                                 <label class="sec5-title-text-con"> -0.77</label>
+                                 <div class="input-group">
+                                    <input type="text" class="form-control form-control-sm" id="quiz-answer4" data-ans="E">
+                                    <button class="btn text-white bg-black ps-2 pe-2" data-error_counter="3" data-qs_count="4" id="quiz-answer4btn" onclick="checkInputs(this)" type="button">Check</button>
+                                    <span id="quiz-answer-text4" class="hidden position-absolute error_mes bg-danger ps-1 pe-1 text-white"></span>
+                                </div>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td width="50%">
+                                  <label class="sec5-title-text-con">e. - &#8730 25 / 42</label>
+                                </td>
+                                <td width="50%" class="sec8-bg-text-ans" style="border:1px solid #fff">
+                                 <label class="sec5-title-text-con"> -6</label>
+                                 <div class="input-group">
+                                    <input type="text" class="form-control form-control-sm" id="quiz-answer5" data-ans="B">
+                                    <button class="btn text-white bg-black ps-2 pe-2" data-error_counter="3" data-qs_count="5" id="quiz-answer5btn" onclick="checkInputs(this)" type="button">Check</button>
+                                    <span id="quiz-answer-text5" class="hidden position-absolute error_mes bg-danger ps-1 pe-1 text-white"></span>
+                                </div>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td width="50%">
+                                  <label class="sec5-title-text-con">f. - &#8730 5.29</label>
+                                </td>
+                                <td width="50%" class="sec8-bg-text-ans" style="border:1px solid #fff">
+                                 <label class="sec5-title-text-con"> 2.3</label>
+                                  <div class="input-group">
+                                    <input type="text" class="form-control form-control-sm" id="quiz-answer6" data-ans="F">
+                                    <button class="btn text-white bg-black ps-2 pe-2" data-error_counter="3" data-qs_count="6" id="quiz-answer6btn" onclick="checkInputs(this)" type="button">Check</button>
+                                    <span id="quiz-answer-text6" class="hidden position-absolute error_mes bg-danger ps-1 pe-1 text-white"></span>
+                                </div>
+                                </td>
+                              </tr>
+                            </thead>
+                          </table>
+                        </div>
+                      </div>
+                      <div class="col-lg-12">
+                         <p class="sec2-text-cont mt-4">II. Classify each number as either Rational or Irrational. Write R for rational number.  Write IR for irrational number.</p>
+                      </div>
+                      <div class="col-lg-8 offset-lg-2">
+                        <div class="table-responsive">
+                          <table class="table table-bordered" >
+                            <thead>
+                              <tr>
+                                <td width="50%">
+                                  <label class="sec5-title-text-con">a. - 3 / 4</label>
+                                </td>
+                                <td width="50%" class="sec8-bg-text-ans" style="border:1px solid #fff">
+                                   <label class="sec5-title-text-con"><div class="form-check">
+                                          <input class="form-check-input sect5-text-sub" type="checkbox" data-value="yes" id="practice16" data-qs_count="1">
+                                          <label class="form-check-label sect5-text-sub" for="practice16">a. R</label>
+                                      </div></label>
+                                   <br>
+                                   <label class="sec5-title-text-con"><div class="form-check">
+                                          <input class="form-check-input sect5-text-sub" type="checkbox" data-value="no" id="practice16" data-qs_count="1">
+                                          <label class="form-check-label sect5-text-sub" for="practice16">b. IR</label>
+                                    </div></label>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td width="50%">
+                                  <label class="sec5-title-text-con">b. 0.333... </label>
+                                </td>
+                                <td width="50%" class="sec8-bg-text-ans" style="border:1px solid #fff">
+                                 <label class="sec5-title-text-con"><div class="form-check">
+                                          <input class="form-check-input sect5-text-sub" type="checkbox" data-value="yes" id="practice17" data-qs_count="1">
+                                          <label class="form-check-label sect5-text-sub" for="practice17">a. R</label>
+                                      </div></label>
+                                   <br>
+                                   <label class="sec5-title-text-con"><div class="form-check">
+                                          <input class="form-check-input sect5-text-sub" type="checkbox" data-value="no" id="practice17" data-qs_count="1">
+                                          <label class="form-check-label sect5-text-sub" for="practice17">b. IR</label>
+                                    </div></label>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td width="50%">
+                                  <label class="sec5-title-text-con">c. 3.1457...</label>
+                                </td>
+                                <td width="50%" class="sec8-bg-text-ans" style="border:1px solid #fff">
+                               <label class="sec5-title-text-con"><div class="form-check">
+                                          <input class="form-check-input sect5-text-sub" type="checkbox" data-value="no" id="practice18" data-qs_count="1">
+                                          <label class="form-check-label sect5-text-sub" for="practice18">a. R</label>
+                                      </div></label>
+                                   <br>
+                                   <label class="sec5-title-text-con"><div class="form-check">
+                                          <input class="form-check-input sect5-text-sub" type="checkbox" data-value="yes" id="practice18" data-qs_count="1">
+                                          <label class="form-check-label sect5-text-sub" for="practice18">b. IR</label>
+                                    </div></label>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td width="50%">
+                                  <label class="sec5-title-text-con">d. &#8730 17</label>
+                                </td>
+                                <td width="50%" class="sec8-bg-text-ans" style="border:1px solid #fff">
+                                <label class="sec5-title-text-con"><div class="form-check">
+                                          <input class="form-check-input sect5-text-sub" type="checkbox" data-value="no" id="practice19" data-qs_count="1">
+                                          <label class="form-check-label sect5-text-sub" for="practice19">a. R</label>
+                                      </div></label>
+                                   <br>
+                                   <label class="sec5-title-text-con"><div class="form-check">
+                                          <input class="form-check-input sect5-text-sub" type="checkbox" data-value="yes" id="practice19" data-qs_count="1">
+                                          <label class="form-check-label sect5-text-sub" for="practice19">b. IR</label>
+                                    </div></label>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td width="50%">
+                                  <label class="sec5-title-text-con">e. - 3 1 / 5</label>
+                                </td>
+                                <td width="50%" class="sec8-bg-text-ans" style="border:1px solid #fff">
+                                  <label class="sec5-title-text-con"><div class="form-check">
+                                          <input class="form-check-input sect5-text-sub" type="checkbox" data-value="yes" id="practice20" data-qs_count="1">
+                                          <label class="form-check-label sect5-text-sub" for="practice20">a. R</label>
+                                      </div></label>
+                                   <br>
+                                   <label class="sec5-title-text-con"><div class="form-check">
+                                          <input class="form-check-input sect5-text-sub" type="checkbox" data-value="no" id="practice20" data-qs_count="1">
+                                          <label class="form-check-label sect5-text-sub" for="practice20">b. IR</label>
+                                    </div></label>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td width="50%">
+                                  <label class="sec5-title-text-con">f. - &#8730 25</label>
+                                </td>
+                                <td width="50%" class="sec8-bg-text-ans" style="border:1px solid #fff">
+                                <label class="sec5-title-text-con"><div class="form-check">
+                                          <input class="form-check-input sect5-text-sub" type="checkbox" data-value="yes" id="practice21" data-qs_count="1">
+                                          <label class="form-check-label sect5-text-sub" for="practice21">a. R</label>
+                                      </div></label>
+                                   <br>
+                                   <label class="sec5-title-text-con"><div class="form-check">
+                                          <input class="form-check-input sect5-text-sub" type="checkbox" data-value="no" id="practice21" data-qs_count="1">
+                                          <label class="form-check-label sect5-text-sub" for="practice21">b. IR</label>
+                                    </div></label>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td width="50%">
+                                  <label class="sec5-title-text-con">g. 0.27276325…</label>
+                                </td>
+                                <td width="50%" class="sec8-bg-text-ans" style="border:1px solid #fff">
+                                <label class="sec5-title-text-con"><div class="form-check">
+                                          <input class="form-check-input sect5-text-sub" type="checkbox" data-value="no" id="practice22" data-qs_count="1">
+                                          <label class="form-check-label sect5-text-sub" for="practice22">a. R</label>
+                                      </div></label>
+                                   <br>
+                                   <label class="sec5-title-text-con"><div class="form-check">
+                                          <input class="form-check-input sect5-text-sub" type="checkbox" data-value="yes" id="practice22" data-qs_count="1">
+                                          <label class="form-check-label sect5-text-sub" for="practice22">b. IR</label>
+                                    </div></label>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td width="50%">
+                                  <label class="sec5-title-text-con">h. - &#8730 65</label>
+                                </td>
+                                <td width="50%" class="sec8-bg-text-ans" style="border:1px solid #fff">
+                                <label class="sec5-title-text-con"><div class="form-check">
+                                          <input class="form-check-input sect5-text-sub" type="checkbox" data-value="no" id="practice23" data-qs_count="1">
+                                          <label class="form-check-label sect5-text-sub" for="practice23">a. R</label>
+                                      </div></label>
+                                   <br>
+                                   <label class="sec5-title-text-con"><div class="form-check">
+                                          <input class="form-check-input sect5-text-sub" type="checkbox" data-value="yes" id="practice23" data-qs_count="1">
+                                          <label class="form-check-label sect5-text-sub" for="practice23">b. IR</label>
+                                    </div></label>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td width="50%">
+                                  <label class="sec5-title-text-con">i. 12 / 3</label>
+                                </td>
+                                <td width="50%" class="sec8-bg-text-ans" style="border:1px solid #fff">
+                               <label class="sec5-title-text-con"><div class="form-check">
+                                          <input class="form-check-input sect5-text-sub" type="checkbox" data-value="yes" id="practice24" data-qs_count="1">
+                                          <label class="form-check-label sect5-text-sub" for="practice24">a. R</label>
+                                      </div></label>
+                                   <br>
+                                   <label class="sec5-title-text-con"><div class="form-check">
+                                          <input class="form-check-input sect5-text-sub" type="checkbox" data-value="no" id="practice24" data-qs_count="1">
+                                          <label class="form-check-label sect5-text-sub" for="practice24">b. IR</label>
+                                    </div></label>
+                                </td>
+                              </tr>
+                               <tr>
+                                <td width="50%">
+                                  <label class="sec5-title-text-con">j. &#8730 16 / 25</label>
+                                </td>
+                                <td width="50%" class="sec8-bg-text-ans" style="border:1px solid #fff">
+                                 <label class="sec5-title-text-con"><div class="form-check">
+                                          <input class="form-check-input sect5-text-sub" type="checkbox" data-value="yes" id="practice25" data-qs_count="1">
+                                          <label class="form-check-label sect5-text-sub" for="practice25">a. R</label>
+                                      </div></label>
+                                   <br>
+                                   <label class="sec5-title-text-con"><div class="form-check">
+                                          <input class="form-check-input sect5-text-sub" type="checkbox" data-value="no" id="practice25" data-qs_count="1">
+                                          <label class="form-check-label sect5-text-sub" for="practice25">b. IR</label>
+                                    </div></label>
+                                </td>
+                              </tr>
+                            </thead>
+                          </table>
+                        </div>
+                      </div>
+
+                      <div class="col-lg-12">
+                         <p class="sec2-text-cont mt-4 text-center">The following video will demonstrate application type problems in real world scenarios. Pay particular attention to the question format: short response, extended response, drawing models, and justifying and explaining how an answer is obtained.</p>
+                      </div>
+                      <div class="col-lg-12 mt-4">
+                          <div class="ratio ratio-16x9" style="border:15px solid #8f542c">
+                              <video class="video-fluid" loop controls>
+                                  <source src="Https://m.fyioc.com/Spanish1/Lesson28/L28V1-REV5.mp4" type="video/mp4" />
+                              </video>
+                              <div class="play_button">
+                                  <div id="play_vid">
+                                      <span class="material-icons-outlined">play_arrow</span>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- section 9 -->
+     <section id="setion9">
+        <div class="container">
+            <div class="col-lg-10 col-12 offset-lg-1">
+                <div id="top4_content_one">
+                    <div class="row">
+                      <div class="col-lg-12">
+                         <h1 class="sec4-text-title">Summary</h1>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- section 6 -->
+    <section id="setion6">
+        <div class="container">
+            <div class="col-lg-10 col-12 offset-lg-1">
+                <div id="top3_content_one">
+                    <div class="row">
+                        <div class="col-lg-12">
+                           <p class="sec2-text-cont mt-4 text-center">In this lesson, you have covered:</p>
+                        </div>
+                        <div class="col-lg-12 text-center mt-3">
+                          <!-- <img src="./ALGEBRAU1L3Image6.png" width="80%"> -->
+                          <img src="https://lh3.googleusercontent.com/u/0/drive-viewer/AAOQEOSCXbre9G8sD9HGS6wWjU837JBzURUxklARZsL2H4dTYYW_F5rcWA6aMDNS-iE52pdQsaGADP_ttFWp3AcL2MVHEYv3iA=w909-h976" width="80%">
+                        </div>
+                       
+                      
+                     
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+		<!-- Assessment Quiz -->
+        <table style="width: 710px; height: auto; margin-left: auto; margin-right: auto;" border="1" cellpadding="20">
+            <tbody>
+            <tr>
+            <td style="background-color: white; width: 710px; ">
+            <b><span style="font-family: arial,helvetica,sans-serif;">&nbsp;  Answer the following questions.</span> </b>
+            <p><a:question index="1" /></p> 
+            <p>&nbsp;</p>  <!--  adds a blank line between questions. -->
+            <p><a:question index="2" /></p>
+            <p>&nbsp;</p>  <!--  adds a blank line between questions. -->
+            <p><a:question index="3" /></p> 
+            <p>&nbsp;</p>  <!--  adds a blank line between questions. -->
+            <p><a:question index="4" /></p>
+            <p>&nbsp;</p>  <!--  adds a blank line between questions. -->
+            <p><a:question index="5" /></p>
+            <p>&nbsp;</p>  <!--  adds a blank line between questions. -->
+            <p><a:question index="6" /></p> 
+            <p>&nbsp;</p>  <!--  adds a blank line between questions. -->
+            <p><a:question index="7" /></p>
+            <p>&nbsp;</p>  <!--  adds a blank line between questions. -->
+            <p><a:question index="8" /></p> 
+            <p>&nbsp;</p>  <!--  adds a blank line between questions. -->
+            <p><a:question index="9" /></p>
+            <p>&nbsp;</p>  <!--  adds a blank line between questions. -->
+            <p><a:question index="10" /></p>
+            <p>&nbsp;</p>  <!--  adds a blank line between questions. -->
+            <p><a:question index="11" /></p> 
+            <p>&nbsp;</p>  <!--  adds a blank line between questions. -->
+            <p><a:question index="12" /></p>
+            <p>&nbsp;</p>  <!--  adds a blank line between questions. -->
+            <p><a:question index="13" /></p> 
+            <p>&nbsp;</p>  <!--  adds a blank line between questions. -->
+            <p><a:question index="14" /></p>
+            <p>&nbsp;</p>  <!--  adds a blank line between questions. -->
+            <p><a:question index="15" /></p>
+            <p>&nbsp;</p>  <!--  adds a blank line between questions. -->
+            <p><a:question index="16" /></p> 
+            <p>&nbsp;</p>  <!--  adds a blank line between questions. -->
+            <p><a:question index="17" /></p>
+            <p>&nbsp;</p>  <!--  adds a blank line between questions. -->
+            <p><a:question index="18" /></p> 
+            <p>&nbsp;</p>  <!--  adds a blank line between questions. -->
+            <p><a:question index="19" /></p>
+            <p>&nbsp;</p>  <!--  adds a blank line between questions. -->
+            <p><a:question index="20" /></p>
+            <p>&nbsp;</p>  <!--  adds a blank line between questions. -->
+            </td>
+            </tr>
+            </tbody>
+        </table>
+            <!-- Assessment Quiz -->
+</div> 
+    <!-- js functions -->
+    <script>
+       const checkList10 = document.querySelectorAll('#practice1,#practice2,#practice3,#practice4,#practice5,#practice6,#practice7,#practice8,#practice9,#practice10,#practice11,#practice12,#practice13,#practice14,#practice15,#practice16,#practice17,#practice18,#practice19,#practice20,#practice21,#practice22,#practice23,#practice24,#practice25');
+
+        checkList10.forEach(function(elem, index){
+
+            elem.addEventListener("click", function(event){
+
+                if(elem.checked){
+
+                    if(event.target.getAttribute('data-value') == "yes"){
+                        elem.classList.remove('is-invalid');
+                        elem.classList.add('is-valid');
+                    }
+
+                    if(event.target.getAttribute('data-value') == "no"){
+                        elem.classList.remove('is-valid');
+                        elem.classList.add('is-invalid');
+                    }
+
+                } else {
+                    elem.classList.remove('is-valid');
+                    elem.classList.remove('is-invalid');
+                }
+
+            });
+
+        });
+        // ====================================
+        function checkInputs(){
+
+          
+            const answerNumber = event.target.dataset.qs_count
+            const triesRemaining = event.target.dataset.error_counter
+            const selectorString = `quiz-answer${answerNumber}`
+            const selectorStringButton = `quiz-answer${answerNumber}btn`
+            const selectorStringAnswer = `quiz-answer-text${answerNumber}`
+            const quizTwoAnswer = document.getElementById(selectorString);
+            const quizTwoAnswerButton = document.getElementById(selectorStringButton)
+            const quizTwoAnswerText = document.getElementById(selectorStringAnswer)
+            const answer = quizTwoAnswer.getAttribute('data-ans')
+            // const answer2 = quizTwoAnswer.getAttribute('data-ans2')
+            // const answer3 = quizTwoAnswer.getAttribute('data-ans3')
+            const userAnswer = quizTwoAnswer.value.toLowerCase()
+            const correctAnswer = userAnswer === answer.toLowerCase() ? true : false
+            const backToGlow = (quizTwoAnswer, quizTwoAnswerButton) => {
+                quizTwoAnswerButton.classList.remove("glow-on-hover-success")
+                quizTwoAnswerButton.classList.remove("glow-on-hover-wrong")
+                quizTwoAnswerButton.classList.add('glow-on-hover')
+                quizTwoAnswerButton.innerText = 'Check'
+            }
+            if(correctAnswer){
+                quizTwoAnswer.classList.remove("is-invalid")
+                quizTwoAnswer.classList.add("is-valid")
+                quizTwoAnswerButton.innerText = 'Correct!'
+                quizTwoAnswerButton.classList.add("glow-on-hover-success")
+                quizTwoAnswerButton.classList.remove("glow-on-hover")
+                quizTwoAnswerButton.classList.remove('glow-on-hover-wrong')
+                quizTwoAnswerText.classList.remove('bg-danger')
+                quizTwoAnswerText.classList.add('bg-success')
+            } else {
+                quizTwoAnswerText.classList.remove('bg-success') 
+                quizTwoAnswerText.classList.add('bg-danger')
+                quizTwoAnswer.classList.remove("is-valid")
+                quizTwoAnswer.classList.add("is-invalid")
+                quizTwoAnswerButton.classList.remove("glow-on-hover-success")
+                quizTwoAnswerButton.classList.remove("glow-on-hover")
+                quizTwoAnswerButton.classList.add('glow-on-hover-wrong')
+                quizTwoAnswerButton.innerText = 'Wrong'
+                setTimeout(() => backToGlow(quizTwoAnswer,quizTwoAnswerButton), 1500);
+                let updateTries = ''
+                if(quizTwoAnswerButton.getAttribute('data-error_counter') == 0){
+                    updateTries = 0;
+                } else {
+                    updateTries = Number(triesRemaining) - 1;
+                }
+                document.getElementById(selectorStringButton).setAttribute('data-error_counter', updateTries)
+                if(quizTwoAnswerButton.getAttribute('data-error_counter') == 0 ){
+                    quizTwoAnswerText.innerHTML = `Answer: ${quizTwoAnswer.getAttribute('data-ans')}`
+                    quizTwoAnswerText.classList.remove('hidden')
+                }
+            }
+        }
+    </script>
+</body>
+</html>
